@@ -1,0 +1,24 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.8.2",
+    "koa-compose": "^4.1.0",
+    "koa-compress": "^3.0.0",
+    "koa-helmet": "^5.2.0",
+    "koa-router": "^7.4.0",
+    "mocha": "^6.2.1",
+    "node-api-ping": "billymoon/node-api-ping#0.0.1",
+    "testdouble": "^3.12.4",
+    "winston": "^3.2.1"
+  }
+}
